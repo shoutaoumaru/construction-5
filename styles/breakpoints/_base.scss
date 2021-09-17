@@ -324,31 +324,18 @@ body {
   }
 }
 
-.pageBg {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -2;
-
-  & .txt {
-    font-size: 8rem;
-    font-weight: bold;
-    color: $cSubWhite;
-    text-transform: uppercase;
-    writing-mode: vertical-rl;
-    padding: 200px 0 0 0;
-    line-height: 0.9;
-    text-align: center;
-  }
-}
 
 //* * * * * * ホーム * * * * * * * 
 //.topview
 .top-view {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   margin-bottom: 200px;
+  z-index: -1;
 
   .hero {
     position: relative;
@@ -408,7 +395,9 @@ body {
 //.p-about
 .p-about {
   position: relative;
+  margin-top: 90vh;
   @extend .mb-lr;
+  background-color: $cWhite;
 
   &__img {
     & ul {
@@ -437,8 +426,9 @@ body {
 
 //.p-services
 .p-services {
-  @extend .mb-lr;
   position: relative;
+  @extend .mb-lr;
+  background-color: $cWhite;
 
   &__img {
     @extend .mb-sm;
@@ -456,6 +446,7 @@ body {
 
 //.p-works 
 .p-works {
+  background-color: $cWhite;
   @extend .mb-lr;
 
   .hero {
@@ -541,7 +532,7 @@ body {
 //.p-recruit
 .p-recruit {
   position: relative;
-  // text-align: center;
+  background-color: $cWhite;
   @extend .mb-md;
 
   & .p-title {
@@ -563,6 +554,7 @@ body {
 
 //.p-news
 .p-news {
+  background-color: $cWhite;
   @extend .mb-md;
 
   & .p-title {
@@ -734,6 +726,7 @@ body {
 .p-footer {
   padding: 40px 0;
   border-top: 1px solid #EDEDED;
+  background-color: $cWhite;
 
   &__logo {
     text-align: center;

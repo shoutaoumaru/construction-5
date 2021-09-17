@@ -543,31 +543,15 @@ body {
           transform: none;
 }
 
-.pageBg {
+.top-view {
   position: fixed;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
-  z-index: -2;
-}
-
-.pageBg .txt {
-  font-size: 8rem;
-  font-weight: bold;
-  color: #f7f7f7;
-  text-transform: uppercase;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  padding: 200px 0 0 0;
-  line-height: 0.9;
-  text-align: center;
-}
-
-.top-view {
-  position: relative;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   margin-bottom: 200px;
+  z-index: -1;
 }
 
 .top-view .hero {
@@ -626,6 +610,8 @@ body {
 
 .p-about {
   position: relative;
+  margin-top: 90vh;
+  background-color: #fff;
 }
 
 .p-about__img ul {
@@ -652,11 +638,16 @@ body {
 
 .p-services {
   position: relative;
+  background-color: #fff;
 }
 
 .p-services__desc strong {
   font-size: 18px;
   font-weight: bold;
+}
+
+.p-works {
+  background-color: #fff;
 }
 
 .p-works .hero .swiper-container2 {
@@ -732,6 +723,7 @@ body {
 
 .p-recruit {
   position: relative;
+  background-color: #fff;
 }
 
 .p-recruit .p-title .en::before {
@@ -740,6 +732,10 @@ body {
 
 .p-recruit__img {
   margin: 80px -5vw;
+}
+
+.p-news {
+  background-color: #fff;
 }
 
 .p-news .p-title .en::before {
@@ -893,6 +889,7 @@ body {
 .p-footer {
   padding: 40px 0;
   border-top: 1px solid #EDEDED;
+  background-color: #fff;
 }
 
 .p-footer__logo {
@@ -1361,8 +1358,8 @@ body {
 }
 
 .swiper-container {
+  height: 90vh;
   overflow: visible !important;
-  height: 84vh;
 }
 
 .swiper-slide {
