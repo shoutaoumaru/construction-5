@@ -291,6 +291,10 @@ body {
   letter-spacing: 1px;
 }
 
+body.hidden {
+  overflow: hidden;
+}
+
 .superwrapper {
   overflow: hidden;
 }
@@ -1662,7 +1666,7 @@ body {
   width: 100%;
   text-align: center;
   list-style: none;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .mobile-menu__item {
