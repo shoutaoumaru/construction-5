@@ -1616,7 +1616,7 @@ body.hidden {
     color: #272727;
   }
   .pc-container .pc-nav-item small {
-    color: #F99900;
+    color: green;
     display: block;
     text-align: center;
     font-size: 10px;
