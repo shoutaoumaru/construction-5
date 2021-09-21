@@ -1662,7 +1662,7 @@ body {
   width: 100%;
   text-align: center;
   list-style: none;
-  padding-top: 140px;
+  padding-top: 120px;
 }
 
 .mobile-menu__item {
@@ -1688,7 +1688,7 @@ body {
 }
 
 .mobile-menu .contact-btn-item {
-  width: 30%;
+  width: 31%;
   text-align: center;
 }
 
