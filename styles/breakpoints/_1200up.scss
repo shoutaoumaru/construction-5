@@ -2,48 +2,18 @@
   &__img {
     height: 45vh;
   }
-
-  .c-title {
-    left: -20%;
-  }
 }
 
 
 .top-view {
+  .swiper-container {
+    height: 100vh;
+  }
+
   .hero {
     &__text {
-      left: 12%;
+      bottom: 0;
     }
-  }
-
-  .swiper-container {
-    height: 85vh;
-  }
-}
-
-.p-about {
-  & .c-container {
-    margin-left: 10%;
-  }
-
-  &__img {
-    ul {
-      li {
-        height: 300px;
-      }
-    }
-  }
-}
-
-.p-services {
-  & .c-container {
-    margin-left: 10%;
-  }
-}
-
-.p-works {
-  & .c-container {
-    margin-left: 10%;
   }
 }
 
@@ -69,7 +39,6 @@
   }
 
   .recruit-message {
-    margin: 0 -5vw;
 
     ul {
       li {

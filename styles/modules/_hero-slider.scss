@@ -18,16 +18,22 @@
 .scrolldown {
   display: inline-block;
   position: absolute;
-  right: 10px;
-  bottom: -105px;
+  left: 50%;
+  bottom: -60px;
+  transform: translateY(-50%) translateX(-50%);
+  margin: auto;
   z-index: 2;
   padding: 10px 10px 38px;
   overflow: hidden;
-  color: $cBlack;
+  color: $cWhite;
   font-size: 12px;
 
   @media (min-width:960px) {
-    font-size: 28px;
+    font-size: 14px;
+  }
+
+  @media (min-width:1200px) {
+    bottom: 22px;
   }
 
   font-family: 'Josefin Sans',
@@ -44,7 +50,7 @@
     left: 50%;
     width: 1px;
     height: 60px;
-    background: $cBlack;
+    background: $cWhite;
   }
 
   &::after {

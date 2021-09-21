@@ -7,6 +7,7 @@ $cSubWhite:rgb(247, 247, 247);
 $cBlue: rgb(52, 126, 175);
 $cSubBlue: #e2eaf3;
 $cOrange :#F99900;
+$cGreen: green;
 $breakpoints: ('md': 'screen and (min-width: 600px)',
   'lr': 'screen and (min-width: 960px)',
   'lg': 'screen and (min-width: 1200px)',
@@ -54,7 +55,7 @@ $breakpoints: ('md': 'screen and (min-width: 600px)',
   line-height: 2;
 
   @include mq(md) {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   @include mq(lr) {
@@ -88,7 +89,7 @@ $breakpoints: ('md': 'screen and (min-width: 600px)',
   font-size: 10px;
   letter-spacing: 2px;
   line-height: 2;
-  color: $cOrange;
+  color: $cGreen;
 
   @include mq(md) {
     font-size: 12px;
@@ -100,6 +101,14 @@ $breakpoints: ('md': 'screen and (min-width: 600px)',
 
   @include mq(lg) {
     font-size: 16px;
+  }
+}
+
+.c-mt {
+  margin-top: 35vh;
+
+  @include mq(lr) {
+    margin-top: 60vh;
   }
 }
 
@@ -136,6 +145,42 @@ $breakpoints: ('md': 'screen and (min-width: 600px)',
 
   @include mq(lr) {
     margin-bottom: 200px;
+  }
+}
+
+.pb-sm {
+  padding-bottom: 30px;
+
+  @include mq(md) {
+    padding-bottom: 30px;
+  }
+
+  @include mq(lr) {
+    padding-bottom: 50px;
+  }
+}
+
+.pb-md {
+  padding-bottom: 50px;
+
+  @include mq(md) {
+    padding-bottom: 60px;
+  }
+
+  @include mq(lr) {
+    padding-bottom: 80px;
+  }
+}
+
+.pb-lr {
+  padding-bottom: 80px;
+
+  @include mq(md) {
+    padding-bottom: 100px;
+  }
+
+  @include mq(lr) {
+    padding-bottom: 120px;
   }
 }
 

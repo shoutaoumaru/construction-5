@@ -1,7 +1,6 @@
 .p-title {
   .en {
     font-size: 50px;
-    padding-right: 140px;
 
     &::before {
       height: 40px;
@@ -15,6 +14,18 @@
 
   .ja {
     font-size: 26px;
+  }
+}
+
+.c-subTitle {
+
+  & .en {
+    top: -54px;
+    font-size: 88px;
+  }
+
+  & .ja {
+    font-size: 32px;
   }
 }
 
@@ -74,22 +85,25 @@
 }
 
 .p-contact {
-  & .p-title {
-    .en {
-      padding-right: 140px;
-    }
-  }
 
   br {
     display: none;
   }
 }
 
+.p-news {
+  &__date {
+    font-size: 24px;
+  }
+
+  &__content {
+    font-size: 24px;
+  }
+}
+
 .c-business {
 
   &-item {
-    margin-left: 14%;
-    padding-right: 5vw;
 
     .c-title {
       padding-left: 0;
@@ -116,5 +130,11 @@
         width: 50%;
       }
     }
+
+  }
+
+  #business02 {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
