@@ -6,8 +6,8 @@ Stylesheet: ベーススタイル
 
 body {
   color: $cBlack;
-  font-family: 'Cormorant Infant', serif;
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Cormorant Infant", serif;
+  font-family: "Noto Serif JP", serif;
   letter-spacing: 1px;
 }
 
@@ -33,18 +33,18 @@ body.hidden {
       position: absolute;
       top: 6px;
       right: 0;
-      content: '';
+      content: "";
       display: inline-block;
       height: 12px;
       width: 12px;
-      background-image: url(/images/common/arrow.png);
+      background-image: url(../images/common/arrow.png);
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
     }
   }
 
-  @media (min-width:600px) {
+  @media (min-width: 600px) {
     & span {
       font-size: 20px;
       padding-right: 25px;
@@ -62,7 +62,7 @@ body.hidden {
   position: absolute;
   top: 4px;
   right: 0;
-  background-image: url(/images/common/icon-tel.png);
+  background-image: url(../images/common/icon-tel.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -75,7 +75,7 @@ body.hidden {
   position: absolute;
   top: 4px;
   right: 0;
-  background-image: url(/images/common/icon-link-1-black.png);
+  background-image: url(../images/common/icon-link-1-black.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -87,16 +87,15 @@ body.hidden {
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     display: block;
-    background-image: url(/images/common/icon-map.png);
+    background-image: url(../images/common/icon-map.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 17px;
     width: 17px;
   }
-
 }
 
 .icon-insta {
@@ -107,11 +106,11 @@ body.hidden {
   padding-bottom: 5px;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(/images/common/icon-insta-gr.png);
+    background-image: url(../images/common/icon-insta-gr.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -132,7 +131,7 @@ body.hidden {
     height: 35vh;
 
     &::before {
-      content: '';
+      content: "";
       display: block;
       height: 100%;
       width: 100%;
@@ -161,13 +160,13 @@ body.hidden {
     }
   }
 
-  @media (max-width:599px) {
+  @media (max-width: 599px) {
     .view-pc {
       display: none;
     }
   }
 
-  @media (min-width:600px) {
+  @media (min-width: 600px) {
     .view-sp {
       display: none;
     }
@@ -201,7 +200,7 @@ body.hidden {
     position: absolute;
     top: -60px;
     left: 0;
-    content: '01';
+    content: "01";
     display: inline-block;
     font-size: 100px;
     color: $cSubWhite;
@@ -281,7 +280,7 @@ body.hidden {
     text-align: center;
 
     &::before {
-      content: '';
+      content: "";
       display: block;
       position: absolute;
       top: 0;
@@ -290,12 +289,11 @@ body.hidden {
       margin: auto;
       width: 16px;
       height: 16px;
-      transition: .3s;
+      transition: 0.3s;
       z-index: 100;
-      background-image: url(/images/common/arrow.png);
+      background-image: url(../images/common/arrow.png);
       background-repeat: no-repeat;
       background-size: contain;
-
     }
 
     & span {
@@ -324,7 +322,7 @@ body.hidden {
       &:hover,
       &:active {
         &::before {
-          background-image: url(/images/common/arrow-rt-wh.png);
+          background-image: url(../images/common/arrow-rt-wh.png);
         }
 
         & span {
@@ -336,8 +334,7 @@ body.hidden {
   }
 }
 
-
-//* * * * * * ホーム * * * * * * * 
+//* * * * * * ホーム * * * * * * *
 //.topview
 .top-view {
   position: fixed;
@@ -372,13 +369,13 @@ body.hidden {
       }
     }
 
-    @media (max-width:599px) {
+    @media (max-width: 599px) {
       .view-pc {
         display: none;
       }
     }
 
-    @media (min-width:600px) {
+    @media (min-width: 600px) {
       .view-sp {
         display: none;
       }
@@ -392,7 +389,7 @@ body.hidden {
       position: absolute;
       top: 0;
       left: 0;
-      content: '';
+      content: "";
       height: 100%;
       width: 100%;
       display: block;
@@ -425,7 +422,7 @@ body.hidden {
     &:nth-of-type(2) {
       & .item-tit {
         &::before {
-          content: '02';
+          content: "02";
         }
       }
     }
@@ -433,7 +430,7 @@ body.hidden {
     &:last-of-type {
       & .item-tit {
         &::before {
-          content: '03';
+          content: "03";
         }
       }
     }
@@ -462,7 +459,7 @@ body.hidden {
       position: absolute;
       top: 0;
       left: 0;
-      background-image: url(/images/home/img_1.jpg);
+      background-image: url(../images/home/img_1.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -472,7 +469,7 @@ body.hidden {
       transition: all 0.4s;
 
       &::before {
-        content: '';
+        content: "";
         display: block;
         height: 100%;
         width: 100%;
@@ -494,13 +491,13 @@ body.hidden {
 
     &:nth-of-type(2) {
       & .bg-img {
-        background-image: url(/images/home/img_2.jpg);
+        background-image: url(../images/home/img_2.jpg);
       }
     }
   }
 }
 
-//.p-works 
+//.p-works
 .p-works {
   background-color: $cWhite;
   @extend .pb-lr;
@@ -518,7 +515,6 @@ body.hidden {
       }
 
       .swiper-slide {
-
         & p {
           margin-top: 10px;
           padding: 0 10px;
@@ -544,7 +540,7 @@ body.hidden {
         right: 0;
       }
 
-      @media (min-width:600px) {
+      @media (min-width: 600px) {
         .works-img {
           height: 20vh;
         }
@@ -561,7 +557,7 @@ body.hidden {
         }
       }
 
-      @media (min-width:960px) {
+      @media (min-width: 960px) {
         margin-bottom: 120px;
 
         .swiper-button-prev,
@@ -650,7 +646,6 @@ body.hidden {
 
 //.p-contact
 .p-contact {
-
   & .p-title {
     color: $cBlack;
     margin-bottom: 30px;
@@ -664,7 +659,7 @@ body.hidden {
 
   &__wrap {
     padding: 30px 5vw;
-    background-image: url(/images/home/bg_contact-wh.jpg);
+    background-image: url(../images/home/bg_contact-wh.jpg);
     background-size: cover;
     text-align: center;
   }
@@ -695,21 +690,21 @@ body.hidden {
       right: 8px;
       bottom: 0;
       margin: auto;
-      content: '';
+      content: "";
       display: block;
       height: 20px;
       width: 20px;
-      background-image: url(/images/common/icon-link-1-black.png);
+      background-image: url(../images/common/icon-link-1-black.png);
       background-size: contain;
       background-repeat: no-repeat;
     }
   }
 }
 
-//.p-footer 
+//.p-footer
 .p-footer {
   padding: 40px 0;
-  border-top: 1px solid #EDEDED;
+  border-top: 1px solid #ededed;
   background-color: $cWhite;
 
   &__logo {
@@ -750,7 +745,6 @@ body.hidden {
 
     & .address {
       margin-bottom: 10px;
-
     }
 
     & a {
@@ -765,7 +759,7 @@ body.hidden {
   }
 }
 
-//* * * * * * 会社概要 * * * * * * * 
+//* * * * * * 会社概要 * * * * * * *
 .c-company {
   padding-top: 40px;
   @extend .c-mt;
@@ -818,10 +812,10 @@ body.hidden {
       @extend .mb-md;
 
       & th {
-        background: #EDEDED;
+        background: #ededed;
         display: block;
         width: 100%;
-        border-bottom: 1px solid #DDDDDD;
+        border-bottom: 1px solid #dddddd;
 
         & span {
           position: relative;
@@ -867,7 +861,7 @@ body.hidden {
     &__map {
       & iframe {
         width: 100%;
-        height: 200px
+        height: 200px;
       }
     }
   }
@@ -882,10 +876,10 @@ body.hidden {
 
     &__desc {
       & th {
-        background: #EDEDED;
+        background: #ededed;
         display: block;
         width: 100%;
-        border-bottom: 1px solid #DDDDDD;
+        border-bottom: 1px solid #dddddd;
 
         & span {
           position: relative;
@@ -916,7 +910,7 @@ body.hidden {
   }
 }
 
-//* * * * * * 事業案内 * * * * * * * 
+//* * * * * * 事業案内 * * * * * * *
 .c-business {
   background-color: $cWhite;
 
@@ -969,7 +963,7 @@ body.hidden {
   }
 }
 
-//* * * * * * 実績紹介 * * * * * * * 
+//* * * * * * 実績紹介 * * * * * * *
 .c-works {
   background-color: $cWhite;
 
@@ -1009,7 +1003,7 @@ body.hidden {
 
     &__tit {
       position: relative;
-      border-bottom: 1px solid #EDEDED;
+      border-bottom: 1px solid #ededed;
       padding-bottom: 10px;
       order: 1;
       @extend .mb-sm;
@@ -1026,14 +1020,14 @@ body.hidden {
     }
   }
 
-  @media (max-width:599px) {
+  @media (max-width: 599px) {
     .view-pc {
       display: none;
     }
   }
 }
 
-//* * * * * * 採用情報 * * * * * * * 
+//* * * * * * 採用情報 * * * * * * *
 .c-recruit {
   background-color: $cWhite;
 
@@ -1043,7 +1037,6 @@ body.hidden {
   }
 
   &__points {
-
     & li {
       @extend .mb-md;
     }
@@ -1115,13 +1108,12 @@ body.hidden {
     }
   }
 
-  @media (max-width:599px) {
+  @media (max-width: 599px) {
     th {
       color: $cBlack;
       margin-bottom: 5px;
     }
   }
-
 
   .points-title {
     .c-txt-lg {
@@ -1131,7 +1123,7 @@ body.hidden {
   }
 }
 
-//* * * * * * news-page * * * * * * * 
+//* * * * * * news-page * * * * * * *
 .c-news {
   padding: 0 0 10vw 0;
   letter-spacing: 3px;
@@ -1154,7 +1146,6 @@ body.hidden {
       margin-top: 2vw;
       color: $cBlack;
     }
-
   }
 
   &__date {
@@ -1188,7 +1179,7 @@ body.hidden {
       width: 40px;
       height: 40px;
       border-radius: 100%;
-      border: 1px solid #C4CCD1;
+      border: 1px solid #c4ccd1;
       background: #fff;
       margin: 0 1.3vw;
     }
@@ -1204,7 +1195,7 @@ body.hidden {
         content: "";
         position: absolute;
         right: 0;
-        background-image: url(/images/common/arrow.png);
+        background-image: url(../images/common/arrow.png);
         background-position: right center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -1213,16 +1204,15 @@ body.hidden {
         height: 12px;
         margin-left: 8px;
       }
-
     }
 
-    @media (max-width:767px) {
+    @media (max-width: 767px) {
       & .next {
         display: none;
       }
     }
 
-    @media (min-width:600px) {
+    @media (min-width: 600px) {
       & .page-numbers:not(.next):not(.prev) {
         width: 45px;
         height: 45px;
@@ -1233,7 +1223,7 @@ body.hidden {
       }
     }
 
-    @media (min-width:900px) {
+    @media (min-width: 900px) {
       & .page-numbers:not(.next):not(.prev) {
         width: 55px;
         height: 55px;
@@ -1253,7 +1243,7 @@ body.hidden {
 
   &__contents {
     line-height: 2;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   &__title {
@@ -1268,7 +1258,7 @@ body.hidden {
   }
 }
 
-//* * * * * * news-single-page * * * * 
+//* * * * * * news-single-page * * * *
 .c-news-sl {
   background-color: $cWhite;
   padding-top: 60px;
@@ -1289,14 +1279,12 @@ body.hidden {
 
   &__link {
     text-align: right;
-    font-size: .8rem;
+    font-size: 0.8rem;
 
     & a {
       display: inline-block;
       padding-bottom: 5px;
       border-bottom: 1px solid rgb(114, 114, 114);
-      ;
-
       & span {
         color: $cBlack;
       }
