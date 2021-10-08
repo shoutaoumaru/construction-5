@@ -1,4 +1,4 @@
-<div class="mobile-menu">
+    <div class="mobile-menu">
       <nav class="mobile-menu__nav">
         <ul class="mobile-menu__list">
           <li class="mobile-menu__item"><a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">ホーム</a></li>

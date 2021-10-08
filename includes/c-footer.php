@@ -1,4 +1,4 @@
-<footer class="p-footer">
+    <footer class="p-footer">
       <div class="c-container">
         <div class="p-footer__wrap">
           <div class="p-footer__logo">
