@@ -1824,7 +1824,7 @@ body.hidden {
   z-index: 3000;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   .p-header .pc-container {
     display: none;
   }
@@ -1883,6 +1883,9 @@ body.hidden {
   .pc-container .logo__img {
     display: inline-block;
     margin: 15px 10px 0 20px;
+  }
+  .mobile-menu {
+    display: none;
   }
 }
 
